@@ -124,7 +124,7 @@ public class TocHw4 {
 						max_road = road_list.get(index - 1);
 						finalhigh = highest;
 						finallow = lowest;
-						System.out.println(max_road + " " + finalhigh + " " + finallow);
+						System.out.println(max_road + ", 最高成交價: " + finalhigh + ", 最低成交價: " + finallow);
 					}
 					trade = 1;
 					
@@ -138,7 +138,7 @@ public class TocHw4 {
 				finalhigh = highest;
 				finallow = lowest;
 				
-				System.out.println(max_road + " " + finalhigh + " " + finallow);
+				System.out.println(max_road + ", 最高成交價: " + finalhigh + ", 最低成交價: " + finallow);
 			}
 			
 		} catch (IOException e) {
